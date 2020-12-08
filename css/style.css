@@ -1,0 +1,108 @@
+body {
+  background: #fbfbfb;
+  font-family: 'Poppins', sans-serif !important;
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('./fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+}
+aside.left-panel {
+  background: #15b186;
+  height: 100vh;
+  vertical-align: top;
+  -webkit-box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 0 20px rgba(0, 0, 0, 0.08);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.header_shadow {
+  box-shadow: 0px 1px 10px 0px #00000026;
+}
+.btn_custom {
+  background: #15b186;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+}
+
+.main-content {
+  padding-left: 105px !important;
+}
+.text_decoration_none {
+  text-decoration: none !important;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: '>' !important;
+}
+.text_gray {
+  color: #707070 !important;
+}
+.text_green {
+  color: #15b186 !important;
+}
+.profile_card {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.font_size_14px {
+  font-size: 14px !important;
+}
+.health_box {
+  border: 1px solid #15b186;
+  border-radius: 10px;
+  color: #15b186;
+}
+.health_box:hover {
+  background: #15b186;
+  border: 1px solid #15b186;
+  border-radius: 10px;
+  color: #fff;
+}
+.report_box {
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+@media (min-width: 320px) and (max-width: 992px) {
+  .navbar-collapse.collapsing .navbar-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -45%;
+    transition: all 0.2s ease;
+  }
+
+  .navbar-collapse.show .navbar-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: column;
+    height: auto;
+    width: 70%;
+    transition: left 0.35s ease;
+    background: #15b186 !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  .main-content {
+    padding-left: 0px !important;
+  }
+  .navbar-bg {
+    background: #15b186 !important;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url('../images/hamburger.png') !important;
+    height: 20px;
+  }
+  .navbar-toggler {
+    border: none !important;
+  }
+  .navbar-toggler:focus {
+    outline: 0 !important;
+  }
+}
