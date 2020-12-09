@@ -48,6 +48,7 @@ aside.left-panel {
 }
 .profile_card {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 .font_size_14px {
   font-size: 14px !important;
@@ -67,6 +68,22 @@ aside.left-panel {
   background: #f2f2f2;
   border-radius: 5px;
 }
+.foodhabits .nav-link.active {
+  color: #15b186 !important;
+  background: none !important;
+  border: 1px solid transparent;
+}
+.nav-tabs{
+  border: none !important;
+  border-bottom: none !important;
+}
+ .nav-tabs .nav-link{
+  color: #707070 !important;
+}
+.foodhabits .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+  border: 1px solid transparent;
+}
+/* mobile css start */
 @media (min-width: 320px) and (max-width: 992px) {
   .navbar-collapse.collapsing .navbar-nav {
     display: block;
