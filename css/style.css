@@ -363,3 +363,59 @@ select.list-dt:focus {
   -moz-transition: background 0.4s;
   transition: background 0.4s;
 }
+/* .navbar-nav .nav-item:hover {
+  border-left: 4px solid #fff;
+}
+.navbar-nav .nav-item{
+  border-left: 4px solid transparent;
+}
+.navbar-nav .active{
+  border-left: 4px solid transparent;
+} */
+.nav-item .active {
+  border-left: 3px solid #fff;
+}
+
+.modal.left .modal-dialog {
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content {
+  overflow-y: auto;
+}
+
+.modal.left.fade .modal-dialog {
+  left: -320px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.show .modal-dialog {
+  left: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+  border-radius: 0;
+  border: none;
+}
+
+.modal-header {
+  border-bottom-color: #eeeeee;
+  background-color: #fafafa;
+}
+.btn-secondary {
+  background: #15b186;
+  border: none !important;
+}
+.btn-secondary:hover {
+  background: #15b186;
+  border: none !important;
+}
